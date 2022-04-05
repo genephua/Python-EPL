@@ -40,4 +40,4 @@ More than half of the proportion of players in the top 4 clubs were found to be 
 
 ![image](https://user-images.githubusercontent.com/102946848/161709733-3dccc223-ebab-4e20-98a0-4d78b6a7ab2f.png)
 
-Comparing the piecharts of the top 4 clubs to that of the whole English Premier League, it can be seen that the top 4 clubs are generally representative of the diversity of nationality profile of the league.
+Comparing the piecharts of the top 4 clubs to that of the whole English Premier League, it can be seen that the top 4 clubs are generally representative of the diversity of nationality profile of the league. Thus, the English Premier League is found to be extremely cosmoplitian in nature with it having much more Non-English soccer players who are of many various different nationalities.
