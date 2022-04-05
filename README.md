@@ -22,6 +22,16 @@ The project centred around looking into three areas which were thought to be int
 
 ### Age Profile
 
-![image](https://user-images.githubusercontent.com/102946848/161683816-14b6a248-a845-4fb7-b0c3-489d9a5829c4.png)
+![image](https://user-images.githubusercontent.com/102946848/161692740-71edacd1-e234-4dfe-b9be-2c789bf6fbd1.png)
 
 Most of the players were found to be aged approximately between 26-28 years old.
+
+<kbd> ![image](https://user-images.githubusercontent.com/102946848/161696180-c8db24f7-64de-4555-8023-12f585d653ec.png) </kbd>
+
+Running the describe() function on the age data frame, the descriptive statistics of the normal distribution is obtained as shown in the above picture. As can be seen, the standard deviation of the normal distribution curve is approximately 4. The Empirical rule in statistics that 68% of the population falls within one standard deviation from the mean. As such, it can be seen that most of the players are aged between 20-30 years old.
+
+
+
+
+
+
