@@ -26,7 +26,7 @@ The project centred around looking into three areas which were thought to be int
 
 A histogram and normal curve was plotted using the matplotlib and SciPY.stats libraries, to look at the age profile. Most of the players were found to be aged approximately between 26-28 years old.
 
-<kbd> ![image](https://user-images.githubusercontent.com/102946848/161696180-c8db24f7-64de-4555-8023-12f585d653ec.png) </kbd>
+![image](https://user-images.githubusercontent.com/102946848/161696180-c8db24f7-64de-4555-8023-12f585d653ec.png)
 
 Running the describe() function on the age data frame, the descriptive statistics of the normal distribution is obtained as shown in the above picture. As can be seen, the standard deviation of the normal distribution curve is approximately 4. The Empirical rule in statistics that 68% of the population falls within one standard deviation from the mean. As such, it can be seen that most of the players are aged between 20-30 years old.
 
