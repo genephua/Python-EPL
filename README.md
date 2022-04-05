@@ -34,10 +34,29 @@ Running the describe() function on the age data frame, the descriptive statistic
 
 ![image](https://user-images.githubusercontent.com/102946848/161709869-6082bfd7-ddfe-4c30-9745-c264018aaf11.png)
 
-To get a rough gauge of the nationality profile of the EPL, I looked at the nationality profile of the top 4 clubs in the league points table as well as for the English premier league as a whole. The top 4 clubs were in descending order Manchester City, Manchester United, Liverpool and Chelsea. The number of English soccer players and Non-English soccer players were mainly calculated by using the GroupBy function on the data frames. Visualization of the results were done by using matplotlib to plot the respective piecharts.
+To get a rough gauge of the nationality profile of the EPL, the project looked at the nationality profile of the top 4 clubs in the league points table as well as for the English premier league as a whole. The top 4 clubs were in descending order Manchester City, Manchester United, Liverpool and Chelsea. The number of English soccer players and Non-English soccer players were mainly calculated by using the GroupBy function on the data frames. Visualization of the results were done by using matplotlib to plot the respective piecharts.
 
 More than half of the proportion of players in the top 4 clubs were found to be Non-English players. It can be seen that the proportion of Non-English players in the top 4 clubs were  pretty similar. The only notable slight exception is actually Manchester City which has the highest no. of Non-English players as compared to the rest. 
 
 ![image](https://user-images.githubusercontent.com/102946848/161709733-3dccc223-ebab-4e20-98a0-4d78b6a7ab2f.png)
 
 Comparing the piecharts of the top 4 clubs to that of the whole English Premier League, it can be seen that the top 4 clubs are generally representative of the diversity of nationality profile of the league. Thus, the English Premier League is found to be extremely cosmoplitian in nature with it having much more Non-English soccer players who are of many various different nationalities.
+
+### Fouls vs Advantage Obtained From Fouling
+
+This project also seeks to address the question of whether playing dirty on the soccer pitch has any advantage given to the offending club.
+
+Yellow cards and red cards are both a measure of the number of fouls. On the pitch, if fouls are committed, receiving two yellow cards is equivalent to receiving a single red card which leads to a sending off. Therefore, in the analysis done, the no. of red cards obatined were taken to be equal to 2 yellow cards obtained. 
+
+In soccer, when a club wins or draws a match they get awarded points in the English Premier League table. Advantage for the purposes of this project would be represented by having higher points in the league table. Therefore, to be able to answer the question of whether fouling gives an advantage, we will be seeking to see there is a linear relationship between the number of yellow cards received and the corresponding points in the league table. 
+
+This was done by plotting a linear regression line between the no. of yellow cards obtained and the no of points obtained by the respective clubs. Again, this involved the use of the pandas and matplotlib libraries for data analysis and visualization. As the main data set did not have data on the premier leagues points table, data was obtained from the actual premier leagues point table to merge with it.
+
+![image](https://user-images.githubusercontent.com/102946848/161712025-5a7d15b2-9f9f-4ad4-8126-66073629edf2.png)
+
+Visually, there appears to be a negative relationship between the total number of yellow cards received and the points obtained by the club in the premier league points table. This means that the more fouls you commit as measured by the number of yellow cards received results in lesser points obtained in the overall premier league points table. One would think that you could cheat on the pitch by fouling to obtain an unfair advantage and thus result in the team winning or drawing to get more  points. However, this is clearly not the case shown by the regression line.
+
+However, one important thing to note is that the coefficient of determination R squared, is only 0.174 which implies that the strength of the linear relationship is actually very weak . This means that the number of yellow cards received which can be seen as the number of fouls committed only affects to a very small extent the total points total in the premier league table. 
+
+
+
