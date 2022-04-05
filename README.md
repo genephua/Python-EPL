@@ -59,6 +59,6 @@ Visually, there appears to be a negative relationship between the total number o
 However, one important thing to note is that the coefficient of determination R squared, is only 0.174 which implies that the strength of the linear relationship is actually very weak . This means that the number of yellow cards received which can be seen as the number of fouls committed only affects to a very small extent the total points total in the premier league table. 
 
 *Analysis powered by Python*
-<br /> *Python Code: Data.xlsx* 
+<br /> *Python Code: [https://github.com/genephua/Python-EPL/blob/main/Python%20EPL.ipynb](https://github.com/genephua/Python-EPL/blob/main/Python%20EPL.ipynb)*
 
 
